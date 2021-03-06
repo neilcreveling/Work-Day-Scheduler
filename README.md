@@ -6,6 +6,8 @@
 
 This is a simple calendar application that allows a user to save events for each hour of the day. The app was built using dynamically updated HTML and CSS powered by jQuery, with a specific emphasis on Moment.js to work with date and time.
 
+Link: https://neilcreveling.github.io/Work-Day-Scheduler/
+
 ## Application
 
 
