@@ -27,7 +27,7 @@ The user can enter any of their plans into the central text areas inside each ti
 ![Scheduler with Content](./screenshots/scheduler_firstplans.png)
 
 
-Whenever the user refreshes the page, any information saved in the text areas will remain. In this example, the user's 5 o'clock plans changed. Here, they can delete their old plans of grocery shopping and update the text area with their new dinner date. By hitting save, this new information will be saved in their schedule.
+Whenever the user refreshes the page, any information saved in the text areas will remain. In this example, the user's 5 o'clock plans changed. Here, they can delete their old plans of grocery shopping and update the text area with their new plans. By hitting save, this new information will be saved in their schedule.
 
 ![Scheduler with New Content](./screenshots/scheduler_secondplans.png)
 
