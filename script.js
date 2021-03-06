@@ -30,3 +30,12 @@ colorCoding();
 var reRun = window.setInterval(function(){
     changeColor();
   }, 15000);
+
+  // get and render user input from local storage
+  $(document).ready(function() {
+    $(".description").each(function(){    
+        var id = $(this).attr("id");
+        var value = localStorage.getItem(id);
+        $(this).val(value);
+    }); 
+  });
