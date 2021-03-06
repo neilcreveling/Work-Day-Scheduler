@@ -23,4 +23,10 @@ function colorCoding() {
     });
 }
 
+// call the colorCoding() function
+colorCoding();
 
+// checks the time and reruns colorCoding() function
+var reRun = window.setInterval(function(){
+    changeColor();
+  }, 15000);
