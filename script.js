@@ -33,9 +33,18 @@ var reRun = window.setInterval(function(){
 
   // get and render user input from local storage
   $(document).ready(function() {
-    $(".description").each(function(){    
+    $(".description").each(function() {    
         var id = $(this).attr("id");
         var value = localStorage.getItem(id);
         $(this).val(value);
     }); 
+  });
+
+  // create event listener for save button that saves user input to local storage
+  $(".saveBtn").on("click", function() {
+    $(".description").each(function() {    
+        var id = $(this).attr('id');
+        var value = $(this).val();
+        localStorage.setItem(id, value);
+    });   
   });
